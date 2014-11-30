@@ -1,10 +1,11 @@
 Docker build for ReadTheDocs (RTD)
 ================================
 
-This repository provides Dockerfile for [Read The Docs][0] 
+A Dockerfile-repository for an image imitating installations of [Read The Docs][0]
 
-### Status
-Built images are uploaded to [index.docker.io][1]
+### Status (Dec-2014)
+- Built images are uploaded to [index.docker.io][1]
+- Python3 under evaluation.
 
 ### Usage:
 
@@ -18,8 +19,10 @@ Built images are uploaded to [index.docker.io][1]
  - username/password for admin:
    - `username` is `admin`
    - `password` is `admin`
+- Read [RTD Installation Instructions][4] for further help.
 
   [0]: http://readthedocs.org
-  [1]: https://index.docker.io/u/shaker/
+  [1]: https://index.docker.io/u/ankostis/
   [2]: http://docs.docker.io/en/latest/ "docs.docker.io"
   [3]: http://127.0.0.1:8000/
+  [4]: http://docs.readthedocs.org/en/latest/install.html
